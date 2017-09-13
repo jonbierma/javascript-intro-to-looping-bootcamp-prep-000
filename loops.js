@@ -1,5 +1,5 @@
 
-function forloop(arr){
+function forLoop(arr){
   for (let i=0; i<25;i++){
     if (i===1){
       arr[i]=`I am {$i} strange loop`
@@ -14,13 +14,14 @@ function whileLoop(num){
     console.log(num)
     num--
   }
-  console.log("done")
+  return "done"
 }
 
 function doWhileLoop(arr){
   do {
-    if (arr.length>0)
+    if (arr.length>0){
       arr.pop()
+    }
   } while (maybeTrue());
 }
 
