@@ -7,6 +7,7 @@ function forLoop(arr){
     arr[i]=`I am ${i} strange loops`
     }
   }
+  return arr
 }
 
 function whileLoop(num){
@@ -23,6 +24,7 @@ function doWhileLoop(arr){
       arr.pop()
     }
   } while (maybeTrue());
+  return arr
 }
 
 function maybeTrue() {
